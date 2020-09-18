@@ -23,22 +23,16 @@ func twoSum(nums []int, target int) []int {
 
 //针对性优化，使用空间来降低时间复杂度
 func twoSum_optimize(nums []int, target int) []int {
-	res := make([]int, 2)
 	dict := make(map[int]int)
 	l := len(nums)
 	//code
 	//使用字典存储索引和值
-	for index, num := range nums {
-		dict[num] = index
-	}
-
 	for i := 0; i < l; i++ {
-		first := nums[i]
-		remain := target - first
-		if j,ok:=dict[remain];ok && j!=i {
-			res[0] = i
-			res[1] = j
+		remain := target - nums[i]
+		if _,ok:=dict[remain];ok{
+			return []int{dict[remain],i}
 		}
+		dict[nums[i]] = i
 	}
-	return res
+	return []int{}
 }
