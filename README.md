@@ -6,4 +6,6 @@
 #### 第五题 [整数反转](/problem/math/reverse_int) easy
 #### 第六题 [回文数字](/problem/math/palindrome_num) easy
 #### 第七题 [储存雨水](/problem/array/maxArea) medium
-#### 第八题 [罗马数字转换](/problem/math/romanToInt)
+#### 第八题 [罗马数字转换](/problem/math/romanToInt) easy
+#### 第九题 [三数之和](/problem/array/Three_Sum) medium
+#### 第十题 [最接近的三数之和](/problem/array/Three_Sum_Closest)
