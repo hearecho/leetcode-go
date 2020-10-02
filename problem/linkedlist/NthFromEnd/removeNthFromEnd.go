@@ -1,10 +1,12 @@
 package NthFromEnd
 
-import "leetcode-go/structure"
+import (
+	"leetcode-go/problem/linkedlist/listNode"
+)
 
 //双指针加上假的头节点
-func removeNthFromEnd(head *structure.ListNode, n int) *structure.ListNode {
-	fakehead := &structure.ListNode{Val:0}
+func removeNthFromEnd(head *listNode.ListNode, n int) *listNode.ListNode {
+	fakehead := &listNode.ListNode{Val: 0}
 	fakehead.Next = head
 	//设置两个指针，第一个指针指向头部，第二个指针指向第n个位置
 	low,fast:= fakehead,fakehead

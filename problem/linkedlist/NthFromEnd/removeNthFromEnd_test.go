@@ -2,7 +2,7 @@ package NthFromEnd
 
 import (
 	"fmt"
-	"leetcode-go/structure"
+	"leetcode-go/problem/linkedlist/listNode"
 	"testing"
 )
 
@@ -16,10 +16,10 @@ func Test_removeNthFromEnd(t *testing.T)  {
 		{[]int{1,2,3,4,5},2},
 	}
 	for _,p := range params {
-		head := structure.GenerateLinkedListTail(p.nums)
+		head := listNode.GenerateLinkedListTail(p.nums)
 		res := removeNthFromEnd(head,p.n)
 		fmt.Printf("【input】:%v\n       【output】:\n",p)
-		structure.PrinLinkedList(res)
+		listNode.PrinLinkedList(res)
 		fmt.Println()
 	}
 }

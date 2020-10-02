@@ -1,15 +1,17 @@
 package Add_Two_Numbers
 
-import "leetcode-go/structure"
+import (
+	"leetcode-go/problem/linkedlist/listNode"
+)
 
-func addTwoNumbers(l1 *structure.ListNode, l2 *structure.ListNode) *structure.ListNode {
-	head := &structure.ListNode{}
+func addTwoNumbers(l1 *listNode.ListNode, l2 *listNode.ListNode) *listNode.ListNode {
+	head := &listNode.ListNode{}
 	last := head
 	carry := 0
 	for l1 != nil && l2 != nil {
 		num := l1.Val + l2.Val + carry
 		carry = num / 10
-		temp := structure.ListNode{
+		temp := listNode.ListNode{
 			Val:  num % 10,
 			Next: nil,
 		}
@@ -23,7 +25,7 @@ func addTwoNumbers(l1 *structure.ListNode, l2 *structure.ListNode) *structure.Li
 	for l1 != nil {
 		num := l1.Val + carry
 		carry = num / 10
-		temp := structure.ListNode{
+		temp := listNode.ListNode{
 			Val:  num % 10,
 			Next: nil,
 		}
@@ -35,7 +37,7 @@ func addTwoNumbers(l1 *structure.ListNode, l2 *structure.ListNode) *structure.Li
 	for l2 != nil {
 		num := l2.Val + carry
 		carry = num / 10
-		temp := structure.ListNode{
+		temp := listNode.ListNode{
 			Val:  num % 10,
 			Next: nil,
 		}
@@ -45,7 +47,7 @@ func addTwoNumbers(l1 *structure.ListNode, l2 *structure.ListNode) *structure.Li
 		l2 = l2.Next
 	}
 	if carry != 0 {
-		temp := structure.ListNode{
+		temp := listNode.ListNode{
 			Val:  1,
 			Next: nil,
 		}
@@ -56,8 +58,8 @@ func addTwoNumbers(l1 *structure.ListNode, l2 *structure.ListNode) *structure.Li
 	return head.Next
 }
 
-func optimize_addTwoNumbers(l1 *structure.ListNode, l2 *structure.ListNode) *structure.ListNode {
-	head := &structure.ListNode{}
+func optimize_addTwoNumbers(l1 *listNode.ListNode, l2 *listNode.ListNode) *listNode.ListNode {
+	head := &listNode.ListNode{}
 	last := head
 	carry := 0
 	n1,n2 := 0,0
@@ -74,7 +76,7 @@ func optimize_addTwoNumbers(l1 *structure.ListNode, l2 *structure.ListNode) *str
 			n2 = l2.Val
 			l2 = l2.Next
 		}
-		temp := &structure.ListNode{
+		temp := &listNode.ListNode{
 			Val:  (n1+n2+carry)%10,
 			Next: nil,
 		}
