@@ -14,3 +14,4 @@
 #### 第十三题 [删除链表的倒数第N个节点](/problem/linkedlist/NthFromEnd) medium
 #### 第十四题 [有效的括号](/problem/stack/Valid-Parentheses) easy
 #### 第十五题 [合并有序链表](/problem/linkedlist/MergeTwoLists) easy
+#### 第十六题 [生成括号](/problem/string/generateParentheses) medium
