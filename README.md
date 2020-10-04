@@ -1,17 +1,20 @@
 ## 🚩 开始刷题
-#### 第一题 [两数之和](/problem/array/Two-Sum) easy
-#### 第二题 [两数相加](/problem/array/Add_Two_Numbers) medium
-#### 第三题 [最长无重复子串](/problem/string/lswrc) medium
-#### 第四题 [两个正序数组的中位数](/problem/array/Median-of-two-sorted-arrays) hard
-#### 第五题 [整数反转](/problem/math/reverse_int) easy
-#### 第六题 [回文数字](/problem/math/palindrome_num) easy
-#### 第七题 [储存雨水](/problem/array/maxArea) medium
-#### 第八题 [罗马数字转换](/problem/math/romanToInt) easy
-#### 第九题 [三数之和](/problem/array/Three_Sum) medium
-#### 第十题 [最接近的三数之和](/problem/array/Three_Sum_Closest) medium
-#### 第十一题 [电话号码的字母组合](/problem/string/letterCombinations) medium
-#### 第十二题 [四数之和](/problem/array/Four-Sum) medium
-#### 第十三题 [删除链表的倒数第N个节点](/problem/linkedlist/NthFromEnd) medium
-#### 第十四题 [有效的括号](/problem/stack/Valid-Parentheses) easy
-#### 第十五题 [合并有序链表](/problem/linkedlist/MergeTwoLists) easy
-#### 第十六题 [生成括号](/problem/string/generateParentheses) medium
+| 顺序 | 题目                                                         | 类别       | 难度   |
+| ---- | ------------------------------------------------------------ | ---------- | ------ |
+| 1    | [两数之和](/problem/array/Two-Sum)                           | array      | easy   |
+|      | [两数相加](/problem/array/Add_Two_Numbers)                   | array      | medium |
+|      | [最长无重复子串](/problem/string/lswrc)                      | string     | medium |
+|      | [两个正序数组的中位数](/problem/array/Median-of-two-sorted-arrays) | array      | hard   |
+|      | [整数反转](/problem/math/reverse_int)                        | math       | easy   |
+|      | [回文数字](/problem/math/palindrome_num)                     | math       | easy   |
+|      | [储存雨水](/problem/array/maxArea)                           | array      | medium |
+|      | [罗马数字转换](/problem/math/romanToInt)                     | math       | easy   |
+|      | [三数之和](/problem/array/Three_Sum)                         | array      | medium |
+|      | [最接近的三数之和](/problem/array/Three_Sum_Closest)         | array      | medium |
+|      | [电话号码的字母组合](/problem/string/letterCombinations)     | string     | medium |
+|      | [四数之和](/problem/array/Four-Sum)                          | array      | medium |
+|      | [删除链表的倒数第N个节点](/problem/linkedlist/NthFromEnd)    | linkedlist | medium |
+|      | [有效的括号](/problem/stack/Valid-Parentheses)               | stack      | easy   |
+|      | [合并有序链表](/problem/linkedlist/MergeTwoLists)            | linkedlist | easy   |
+|      | [生成括号](/problem/string/generateParentheses)              | string     | medium |
+
