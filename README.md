@@ -17,4 +17,5 @@
 |      | [有效的括号](/problem/stack/Valid-Parentheses)               | stack      | easy   |
 |      | [合并有序链表](/problem/linkedlist/MergeTwoLists)            | linkedlist | easy   |
 |      | [生成括号](/problem/string/generateParentheses)              | string     | medium |
+|       |[合并k个有序链表](/problem/linkedlist/mergeKLinkedlist)|linkedlist| hard|
 
