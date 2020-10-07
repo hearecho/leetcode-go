@@ -11,6 +11,7 @@ func swapPairs(head *listNode.ListNode) *listNode.ListNode {
 		//交换两个节点
 		last.Next = head.Next
 		last.Next.Next = head
+		//尾插法
 		last = last.Next.Next
 		head = next
 	}

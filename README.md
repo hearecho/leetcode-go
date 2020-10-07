@@ -19,3 +19,4 @@
 |      | [生成括号](/problem/string/generateParentheses)              | string     | medium |
 |       |[合并k个有序链表](/problem/linkedlist/mergeKLinkedlist)|linkedlist| hard|
 |       |[两两交换链表中的节点](/problem/linkedlist/swapPairNodes)|linkedlist|medium|
+|       |[K个一组翻转链表](/problem/linkedlist/reverseKList)|linkedlist|hard|
