@@ -9,7 +9,7 @@ package removeElem
 func removeElement(nums []int, val int) int {
 	l := len(nums)
 	diffcount := 0
-	res := 0
+	//res := 0
 	for i:=0;i<l;i++ {
 		if nums[i] == val {
 			diffcount++
@@ -17,7 +17,7 @@ func removeElement(nums []int, val int) int {
 		}
 		//交换
 		nums[i-diffcount] = nums[i]
-		res++
+		//res++
 	}
-	return res
+	return l-diffcount
 }
