@@ -21,3 +21,4 @@
 |       |[两两交换链表中的节点](/problem/linkedlist/swapPairNodes)|linkedlist|medium|
 |       |[K个一组翻转链表](/problem/linkedlist/reverseKList)|linkedlist|hard|
 |       |[删除排序数组中的重复项](/problem/array/removeDuplicateElem)|array|easy|
+|       |[移除元素](/problem/array/removeElem)|array|easy|
