@@ -23,3 +23,4 @@
 |       |[删除排序数组中的重复项](/problem/array/removeDuplicateElem)|array|easy|
 |       |[移除元素](/problem/array/removeElem)|array|easy|
 |       |[实现strStr()](/problem/string/ImplementStrstr)|string|easy|
+|       |[两数相除](/problem/math/num_div)|math|medium|
