@@ -25,3 +25,4 @@
 |       |[实现strStr()](/problem/string/ImplementStrstr)|string|easy|
 |       |[两数相除](/problem/math/num_div)|math|medium|
 |       |[串联所有单词的子串](/problem/string/subStringWithAllWords)|string|hard|
+|       |[搜索旋转排序数组](/problem/array/searchInRotatedSortArray)|array|medium|
