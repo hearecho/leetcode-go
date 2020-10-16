@@ -27,3 +27,4 @@
 |       |[串联所有单词的子串](/problem/string/subStringWithAllWords)|string|hard|
 |       |[搜索旋转排序数组](/problem/array/searchInRotatedSortArray)|array|medium|
 |       |[在排序数组中查找元素的第一个和最后一个位置](/problem/array/findfirstlastindex)|array|medium|
+|       |[搜索插入位置](/problem/array/SearchInsertPostion)|array|easy|
