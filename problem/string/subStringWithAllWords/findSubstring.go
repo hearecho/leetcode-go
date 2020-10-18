@@ -14,7 +14,7 @@ func findSubstring(s string, words []string) []int {
 	for _,w := range words {
 		counter[w]++
 	}
-	//totallen为数组中字符串拼接之后的最长长度
+	//totallen为数组中字符串拼接之后的最长长度  
 	length,totalLen,tmpCounter := len(words[0]),len(words[0])*len(words),copyMap(counter)
 	//由于length固定，所以可以i进行固定步长
 	//start为最后结果的起始,
