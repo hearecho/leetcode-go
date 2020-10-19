@@ -28,4 +28,5 @@
 |       |[搜索旋转排序数组](/problem/array/searchInRotatedSortArray)|array|medium|
 |       |[在排序数组中查找元素的第一个和最后一个位置](/problem/array/findfirstlastindex)|array|medium|
 |       |[搜索插入位置](/problem/array/SearchInsertPostion)|array|easy|
-|       |[搜索插入位置](/problem/hashtable/shudu)|hashtable|medium|
+|       |[判断数独是否合法](/problem/hashtable/shudu)|hashtable|medium|
+|       |[解决数独](/problem/hashtable/solveSudoku)|hashtable|hard|
