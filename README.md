@@ -30,3 +30,4 @@
 |       |[搜索插入位置](/problem/array/SearchInsertPostion)|array|easy|
 |       |[判断数独是否合法](/problem/hashtable/shudu)|hashtable|medium|
 |       |[解决数独](/problem/hashtable/solveSudoku)|hashtable|hard|
+|       |[组合综合](/problem/array/zuheshuzi)|array|medium|
