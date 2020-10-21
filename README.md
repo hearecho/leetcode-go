@@ -31,3 +31,5 @@
 |       |[判断数独是否合法](/problem/hashtable/shudu)|hashtable|medium|
 |       |[解决数独](/problem/hashtable/solveSudoku)|hashtable|hard|
 |       |[组合综合](/problem/array/zuheshuzi)|array|medium|
+|       |[组合综合Ⅱ](/problem/array/zuheshuzi2)|array|medium|
+|       |[缺失的第一个正数](/problem/array/findMissNum)|array|hard|
