@@ -7,3 +7,4 @@
 |       |[串联所有单词的子串](hard/subStringWithAllWords)|string|hard|
 |       |[解决数独](hard/solveSudoku)|hashtable|hard|
 |       |[缺失的第一个正数](hard/findMissNum)|array|hard|
+|       |[接雨水](hard/trap)|array|hard|

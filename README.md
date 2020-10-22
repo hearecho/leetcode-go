@@ -33,3 +33,4 @@
 |       |[组合综合](/problem/array/zuheshuzi)|array|medium|
 |       |[组合综合Ⅱ](/problem/array/zuheshuzi2)|array|medium|
 |       |[缺失的第一个正数](/problem/array/findMissNum)|array|hard|
+|       |[接雨水](/problem/array/trap)|array|hard|
