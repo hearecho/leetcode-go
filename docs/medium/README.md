@@ -17,3 +17,4 @@
 |       |[判断数独是否合法](medium/hashtable/shudu)|hashtable|medium|
 |       |[组合综合](medium/array/zuheshuzi)|array|medium|
 |       |[组合综合Ⅱ](medium/array/zuheshuzi2)|array|medium|
+|       |[划分字母区间](medium/partitionLabels)|string|medium|

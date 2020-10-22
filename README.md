@@ -34,3 +34,4 @@
 |       |[组合综合Ⅱ](/problem/array/zuheshuzi2)|array|medium|
 |       |[缺失的第一个正数](/problem/array/findMissNum)|array|hard|
 |       |[接雨水](/problem/array/trap)|array|hard|
+|       |[划分字母区间](/problem/string/partitionLabels)|string|medium|
