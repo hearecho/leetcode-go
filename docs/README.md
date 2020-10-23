@@ -36,3 +36,4 @@
 |       |[接雨水](hard/trap)|array|hard|
 |       |[划分字母区间](medium/partitionLabels)|string|medium|
 |       |[全排列](medium/permute)|array|medium|
+|       |[全排列Ⅱ](medium/permute2)|array|medium|
