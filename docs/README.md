@@ -35,3 +35,4 @@
 |       |[缺失的第一个正数](/problem/array/findMissNum)|array|hard|
 |       |[接雨水](hard/trap)|array|hard|
 |       |[划分字母区间](medium/partitionLabels)|string|medium|
+|       |[全排列](medium/permute)|array|medium|
