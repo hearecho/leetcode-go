@@ -4,11 +4,11 @@ package Permute
 func permute(nums []int) [][]int {
 	res := make([][]int, 0)
 	used := make([]bool, len(nums))
-	backtrack(nums, 0, make([]int, 0), &res, &used)
+	backtrack(nums, make([]int, 0), &res, &used)
 	return res
 }
 
-func backtrack(nums []int, index int, curArr []int, res *[][]int, used *[]bool) {
+func backtrack(nums []int, curArr []int, res *[][]int, used *[]bool) {
 	if len(curArr) == len(nums) {
 		//结束
 		b := make([]int, len(nums))
@@ -22,7 +22,7 @@ func backtrack(nums []int, index int, curArr []int, res *[][]int, used *[]bool) 
 		if !(*used)[i] {
 			(*used)[i] = true
 			curArr = append(curArr, nums[i])
-			backtrack(nums, i, curArr, res, used)
+			backtrack(nums, curArr, res, used)
 			curArr = curArr[:len(curArr)-1]
 			(*used)[i] = false
 		}
