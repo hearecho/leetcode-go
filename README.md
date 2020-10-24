@@ -38,3 +38,4 @@
 |       |[全排列](/problem/array/permute)|array|medium|
 |       |[全排列Ⅱ](/problem/array/permute2)|array|medium|
 |       |[旋转图像](/problem/array/rotateImage)|array|medium|
+|       |[视频拼接](/problem/array/videoStitching)|array|medium|
