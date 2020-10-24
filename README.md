@@ -37,3 +37,4 @@
 |       |[划分字母区间](/problem/string/partitionLabels)|string|medium|
 |       |[全排列](/problem/array/permute)|array|medium|
 |       |[全排列Ⅱ](/problem/array/permute2)|array|medium|
+|       |[旋转图像](/problem/array/rotateImage)|array|medium|
