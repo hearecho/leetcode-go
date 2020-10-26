@@ -40,3 +40,4 @@
 |       |[旋转图像](/problem/array/rotateImage)|array|medium|
 |       |[视频拼接](/problem/array/videoStitching)|array|medium|
 |       |[字母异位词分组](/problem/hashtable/groupAnagrams)|hashtable|medium|
+|       |[n次幂](/problem/math/mypow)|math|medium|
