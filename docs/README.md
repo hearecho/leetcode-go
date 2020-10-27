@@ -41,3 +41,4 @@
 |       |[视频拼接](medium/videoStitching)|array|medium|
 |       |[字母异位词分组](medium/groupAnagrams)|hashtable|medium|
 |       |[n次幂](medium/mypow)|math|medium|
+|       |[最大自子序�和](easy/maxSubArray)|array|easy|
