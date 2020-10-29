@@ -1,46 +1,46 @@
-## ? ¿ªÊ¼Ë¢Ìâ
-| Ë³Ğò | ÌâÄ¿                                                         | Àà±ğ       | ÄÑ¶È   |
+## ? å¼€å§‹åˆ·é¢˜
+| é¡ºåº | é¢˜ç›®                                                         | ç±»åˆ«       | éš¾åº¦   |
 | ---- | ------------------------------------------------------------ | ---------- | ------ |
-| 1    | [Á½ÊıÖ®ºÍ](/problem/array/Two-Sum)                           | array      | easy   |
-|      | [Á½ÊıÏà¼Ó](/problem/array/Add_Two_Numbers)                   | array      | medium |
-|      | [×î³¤ÎŞÖØ¸´×Ó´®](/problem/string/lswrc)                      | string     | medium |
-|      | [Á½¸öÕıĞòÊı×éµÄÖĞÎ»Êı](/problem/array/Median-of-two-sorted-arrays) | array      | hard   |
-|      | [ÕûÊı·´×ª](/problem/math/reverse_int)                        | math       | easy   |
-|      | [»ØÎÄÊı×Ö](/problem/math/palindrome_num)                     | math       | easy   |
-|      | [´¢´æÓêË®](/problem/array/maxArea)                           | array      | medium |
-|      | [ÂŞÂíÊı×Ö×ª»»](/problem/math/romanToInt)                     | math       | easy   |
-|      | [ÈıÊıÖ®ºÍ](/problem/array/Three_Sum)                         | array      | medium |
-|      | [×î½Ó½üµÄÈıÊıÖ®ºÍ](/problem/array/Three_Sum_Closest)         | array      | medium |
-|      | [µç»°ºÅÂëµÄ×ÖÄ¸×éºÏ](/problem/string/letterCombinations)     | string     | medium |
-|      | [ËÄÊıÖ®ºÍ](/problem/array/Four-Sum)                          | array      | medium |
-|      | [É¾³ıÁ´±íµÄµ¹ÊıµÚN¸ö½Úµã](/problem/linkedlist/NthFromEnd)    | linkedlist | medium |
-|      | [ÓĞĞ§µÄÀ¨ºÅ](/problem/stack/Valid-Parentheses)               | stack      | easy   |
-|      | [ºÏ²¢ÓĞĞòÁ´±í](/problem/linkedlist/MergeTwoLists)            | linkedlist | easy   |
-|      | [Éú³ÉÀ¨ºÅ](/problem/string/generateParentheses)              | string     | medium |
-|       |[ºÏ²¢k¸öÓĞĞòÁ´±í](/problem/linkedlist/mergeKLinkedlist)|linkedlist| hard|
-|       |[Á½Á½½»»»Á´±íÖĞµÄ½Úµã](/problem/linkedlist/swapPairNodes)|linkedlist|medium|
-|       |[K¸öÒ»×é·­×ªÁ´±í](/problem/linkedlist/reverseKList)|linkedlist|hard|
-|       |[É¾³ıÅÅĞòÊı×éÖĞµÄÖØ¸´Ïî](/problem/array/removeDuplicateElem)|array|easy|
-|       |[ÒÆ³ıÔªËØ](/problem/array/removeElem)|array|easy|
-|       |[ÊµÏÖstrStr()](/problem/string/ImplementStrstr)|string|easy|
-|       |[Á½ÊıÏà³ı](/problem/math/num_div)|math|medium|
-|       |[´®ÁªËùÓĞµ¥´ÊµÄ×Ó´®](/problem/string/subStringWithAllWords)|string|hard|
-|       |[ËÑË÷Ğı×ªÅÅĞòÊı×é](/problem/array/searchInRotatedSortArray)|array|medium|
-|       |[ÔÚÅÅĞòÊı×éÖĞ²éÕÒÔªËØµÄµÚÒ»¸öºÍ×îºóÒ»¸öÎ»ÖÃ](/problem/array/findfirstlastindex)|array|medium|
-|       |[ËÑË÷²åÈëÎ»ÖÃ](/problem/array/SearchInsertPostion)|array|easy|
-|       |[ÅĞ¶ÏÊı¶ÀÊÇ·ñºÏ·¨](/problem/hashtable/shudu)|hashtable|medium|
-|       |[½â¾öÊı¶À](/problem/hashtable/solveSudoku)|hashtable|hard|
-|       |[×éºÏ×ÛºÏ](/problem/array/zuheshuzi)|array|medium|
-|       |[×éºÏ×ÛºÏ¢ò](/problem/array/zuheshuzi2)|array|medium|
-|       |[È±Ê§µÄµÚÒ»¸öÕıÊı](/problem/array/findMissNum)|array|hard|
-|       |[½ÓÓêË®](/problem/array/trap)|array|hard|
-|       |[»®·Ö×ÖÄ¸Çø¼ä](/problem/string/partitionLabels)|string|medium|
-|       |[È«ÅÅÁĞ](/problem/array/permute)|array|medium|
-|       |[È«ÅÅÁĞ¢ò](/problem/array/permute2)|array|medium|
-|       |[Ğı×ªÍ¼Ïñ](/problem/array/rotateImage)|array|medium|
-|       |[ÊÓÆµÆ´½Ó](/problem/array/videoStitching)|array|medium|
-|       |[×ÖÄ¸ÒìÎ»´Ê·Ö×é](/problem/hashtable/groupAnagrams)|hashtable|medium|
-|       |[n´ÎÃİ](/problem/math/mypow)|math|medium|
-|       |[×î´ó×Ô×ÓĞòºÍ](/problem/array/maxSubArray)|array|easy|
+| 1    | [ä¸¤æ•°ä¹‹å’Œ](/problem/array/Two-Sum)                           | array      | easy   |
+|      | [ä¸¤æ•°ç›¸åŠ ](/problem/array/Add_Two_Numbers)                   | array      | medium |
+|      | [æœ€é•¿æ— é‡å¤å­ä¸²](/problem/string/lswrc)                      | string     | medium |
+|      | [ä¸¤ä¸ªæ­£åºæ•°ç»„çš„ä¸­ä½æ•°](/problem/array/Median-of-two-sorted-arrays) | array      | hard   |
+|      | [æ•´æ•°åè½¬](/problem/math/reverse_int)                        | math       | easy   |
+|      | [å›æ–‡æ•°å­—](/problem/math/palindrome_num)                     | math       | easy   |
+|      | [å‚¨å­˜é›¨æ°´](/problem/array/maxArea)                           | array      | medium |
+|      | [ç½—é©¬æ•°å­—è½¬æ¢](/problem/math/romanToInt)                     | math       | easy   |
+|      | [ä¸‰æ•°ä¹‹å’Œ](/problem/array/Three_Sum)                         | array      | medium |
+|      | [æœ€æ¥è¿‘çš„ä¸‰æ•°ä¹‹å’Œ](/problem/array/Three_Sum_Closest)         | array      | medium |
+|      | [ç”µè¯å·ç çš„å­—æ¯ç»„åˆ](/problem/string/letterCombinations)     | string     | medium |
+|      | [å››æ•°ä¹‹å’Œ](/problem/array/Four-Sum)                          | array      | medium |
+|      | [åˆ é™¤é“¾è¡¨çš„å€’æ•°ç¬¬Nä¸ªèŠ‚ç‚¹](/problem/linkedlist/NthFromEnd)    | linkedlist | medium |
+|      | [æœ‰æ•ˆçš„æ‹¬å·](/problem/stack/Valid-Parentheses)               | stack      | easy   |
+|      | [åˆå¹¶æœ‰åºé“¾è¡¨](/problem/linkedlist/MergeTwoLists)            | linkedlist | easy   |
+|      | [ç”Ÿæˆæ‹¬å·](/problem/string/generateParentheses)              | string     | medium |
+|       |[åˆå¹¶kä¸ªæœ‰åºé“¾è¡¨](/problem/linkedlist/mergeKLinkedlist)|linkedlist| hard|
+|       |[ä¸¤ä¸¤äº¤æ¢é“¾è¡¨ä¸­çš„èŠ‚ç‚¹](/problem/linkedlist/swapPairNodes)|linkedlist|medium|
+|       |[Kä¸ªä¸€ç»„ç¿»è½¬é“¾è¡¨](/problem/linkedlist/reverseKList)|linkedlist|hard|
+|       |[åˆ é™¤æ’åºæ•°ç»„ä¸­çš„é‡å¤é¡¹](/problem/array/removeDuplicateElem)|array|easy|
+|       |[ç§»é™¤å…ƒç´ ](/problem/array/removeElem)|array|easy|
+|       |[å®ç°strStr()](/problem/string/ImplementStrstr)|string|easy|
+|       |[ä¸¤æ•°ç›¸é™¤](/problem/math/num_div)|math|medium|
+|       |[ä¸²è”æ‰€æœ‰å•è¯çš„å­ä¸²](/problem/string/subStringWithAllWords)|string|hard|
+|       |[æœç´¢æ—‹è½¬æ’åºæ•°ç»„](/problem/array/searchInRotatedSortArray)|array|medium|
+|       |[åœ¨æ’åºæ•°ç»„ä¸­æŸ¥æ‰¾å…ƒç´ çš„ç¬¬ä¸€ä¸ªå’Œæœ€åä¸€ä¸ªä½ç½®](/problem/array/findfirstlastindex)|array|medium|
+|       |[æœç´¢æ’å…¥ä½ç½®](/problem/array/SearchInsertPostion)|array|easy|
+|       |[åˆ¤æ–­æ•°ç‹¬æ˜¯å¦åˆæ³•](/problem/hashtable/shudu)|hashtable|medium|
+|       |[è§£å†³æ•°ç‹¬](/problem/hashtable/solveSudoku)|hashtable|hard|
+|       |[ç»„åˆç»¼åˆ](/problem/array/zuheshuzi)|array|medium|
+|       |[ç»„åˆç»¼åˆâ…¡](/problem/array/zuheshuzi2)|array|medium|
+|       |[ç¼ºå¤±çš„ç¬¬ä¸€ä¸ªæ­£æ•°](/problem/array/findMissNum)|array|hard|
+|       |[æ¥é›¨æ°´](/problem/array/trap)|array|hard|
+|       |[åˆ’åˆ†å­—æ¯åŒºé—´](/problem/string/partitionLabels)|string|medium|
+|       |[å…¨æ’åˆ—](/problem/array/permute)|array|medium|
+|       |[å…¨æ’åˆ—â…¡](/problem/array/permute2)|array|medium|
+|       |[æ—‹è½¬å›¾åƒ](/problem/array/rotateImage)|array|medium|
+|       |[è§†é¢‘æ‹¼æ¥](/problem/array/videoStitching)|array|medium|
+|       |[å­—æ¯å¼‚ä½è¯åˆ†ç»„](/problem/hashtable/groupAnagrams)|hashtable|medium|
+|       |[næ¬¡å¹‚](/problem/math/mypow)|math|medium|
+|       |[æœ€å¤§è‡ªå­åºå’Œ](/problem/array/maxSubArray)|array|easy|
 |       |[èºæ—‹çŸ©é˜µ](/problem/array/spiralOrder)|array|medium|
 |       |[è·³è·ƒæ¸¸æˆ](/problem/array/canJump)|array|medium|
