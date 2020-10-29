@@ -26,3 +26,4 @@
 |       |[n次幂](medium/mypow)|math|medium|
 |       |[螺旋矩阵](medium/spiralOrder)|array|medium|
 |       |[跳跃游戏](medium/canJump)|array|medium|
+|       |[求根到叶子节点数字之和](medium/sumNumbers)|tree|medium|
