@@ -43,3 +43,4 @@
 |       |[n次幂](/problem/math/mypow)|math|medium|
 |       |[最大自子序和](/problem/array/maxSubArray)|array|easy|
 |       |[铻烘棆鐭╅樀](/problem/array/spiralOrder)|array|medium|
+|       |[璺宠穬娓告垙](/problem/array/canJump)|array|medium|

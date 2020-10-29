@@ -43,3 +43,4 @@
 |       |[n次幂](medium/mypow)|math|medium|
 |       |[最大自子序�和](easy/maxSubArray)|array|easy|
 |       |[螺旋矩阵](medium/spiralOrder)|array|medium|
+|       |[跳跃游戏](medium/canJump)|array|medium|
