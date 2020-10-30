@@ -45,3 +45,4 @@
 |       |[螺旋矩阵](/problem/array/spiralOrder)|array|medium|
 |       |[跳跃游戏](/problem/array/canJump)|array|medium|
 |       |[求根到叶子节点数字之和](/problem/tree/sumNumbers)|tree|medium|
+|       |[合并区间](/problem/array/mergeInterval)|array|medium|
