@@ -32,3 +32,10 @@ func merge(intervals [][]int) [][]int {
 	return res
 
 }
+
+//插入区间的题解
+func insert(intervals [][]int, newInterval []int) [][]int {
+	intervals = append(intervals, newInterval)
+	return merge(intervals)
+
+}
