@@ -8,3 +8,4 @@
 |       |[解决数独](hard/solveSudoku)|hashtable|hard|
 |       |[缺失的第一个正数](hard/findMissNum)|array|hard|
 |       |[接雨水](hard/trap)|array|hard|
+|       |[第k个排列](hard/getPermutation)|string|hard|
