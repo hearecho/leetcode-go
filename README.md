@@ -48,3 +48,4 @@
 |       |[合并区间](/problem/array/mergeInterval)|array|medium|
 |       |[螺旋矩阵2](/problem/array/generateMatrix)|array|medium|
 |       |[第k个排列](/problem/string/getPermutation)|string|hard|
+|       |[旋转链表](/problem/linkedlist/rotateRight)|linkedlist|medium|
