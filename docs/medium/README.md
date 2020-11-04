@@ -30,3 +30,4 @@
 |       |[合并区间](medium/mergeInterval)|array|medium|
 |       |[螺旋矩阵2](medium/generateMatrix)|array|medium|
 |       |[旋转链表](medium/rotateRight)|linkedlist|medium|
+|       |[不同路径](medium/uniquePaths)|array|medium|
