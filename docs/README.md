@@ -50,3 +50,4 @@
 |       |[第k个排列](hard/getPermutation)|string|hard|
 |       |[旋转链表](medium/rotateRight)|linkedlist|medium|
 |       |[不同路径](medium/uniquePaths)|array|medium|
+|       |[不同路径2](medium/uniquePathsWithObstacles)|array|medium|
