@@ -51,3 +51,4 @@
 |       |[旋转链表](medium/rotateRight)|linkedlist|medium|
 |       |[不同路径](medium/uniquePaths)|array|medium|
 |       |[不同路径2](medium/uniquePathsWithObstacles)|array|medium|
+|       |[最小路径和](medium/minPathSum)|array|medium|
