@@ -12,3 +12,4 @@
 |       |[实现strStr()](easy/ImplementStrstr)|string|easy|
 |       |[搜索插入位置](easy/SearchInsertPostion)|array|easy|
 |       |[最大自子序�和](easy/maxSubArray)|array|easy|
+|       |[二进制求和](easy/addBinary)|string|easy|
