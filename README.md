@@ -53,3 +53,4 @@
 |       |[不同路径2](/problem/array/uniquePathsWithObstacles)|array|medium|
 |       |[最小路径和](/problem/array/minPathSum)|array|medium|
 |       |[二进制求和](/problem/string/addBinary)|string|easy|
+|       |[简化路径](/problem/string/simplifyPath)|string|medium|
