@@ -16,3 +16,15 @@ func Test_sortByBits(t *testing.T)  {
 func Test_countRangeSum(t *testing.T)  {
 	fmt.Println(countRangeSum([]int{-2,5,-1},-2,2))
 }
+
+func Test_swap(t *testing.T)  {
+	a,b := 1,2
+	swap(&a,&b)
+	fmt.Println(a,b)
+}
+
+func Test_nextPermutation(t *testing.T)  {
+	nums := []int{1,2,3}
+	nextPermutation(nums)
+	fmt.Println(nums)
+}
