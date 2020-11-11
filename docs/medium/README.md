@@ -34,3 +34,4 @@
 |       |[不同路径2](medium/uniquePathsWithObstacles)|array|medium|
 |       |[最小路径和](medium/minPathSum)|array|medium|
 |       |[简化路径](medium/simplifyPath)|string|medium|
+|       |[搜索二维矩阵](medium/searchMatrix)|array|medium|

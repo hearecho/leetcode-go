@@ -54,3 +54,4 @@
 |       |[最小路径和](/problem/array/minPathSum)|array|medium|
 |       |[二进制求和](/problem/string/addBinary)|string|easy|
 |       |[简化路径](/problem/string/simplifyPath)|string|medium|
+|       |[搜索二维矩阵](/problem/array/searchMatrix)|array|medium|
