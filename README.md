@@ -55,3 +55,4 @@
 |       |[二进制求和](/problem/string/addBinary)|string|easy|
 |       |[简化路径](/problem/string/simplifyPath)|string|medium|
 |       |[搜索二维矩阵](/problem/array/searchMatrix)|array|medium|
+|       |[颜色分类](/problem/array/sortColors)|array|medium|

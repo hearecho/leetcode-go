@@ -35,3 +35,4 @@
 |       |[最小路径和](medium/minPathSum)|array|medium|
 |       |[简化路径](medium/simplifyPath)|string|medium|
 |       |[搜索二维矩阵](medium/searchMatrix)|array|medium|
+|       |[颜色分类](medium/sortColors)|array|medium|
