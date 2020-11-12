@@ -19,7 +19,6 @@ func Test_countRangeSum(t *testing.T)  {
 
 func Test_swap(t *testing.T)  {
 	a,b := 1,2
-	swap(&a,&b)
 	fmt.Println(a,b)
 }
 
@@ -27,4 +26,8 @@ func Test_nextPermutation(t *testing.T)  {
 	nums := []int{1,2,3}
 	nextPermutation(nums)
 	fmt.Println(nums)
+}
+func Test_sortArrayByParityII(t *testing.T)  {
+	nums := []int{4,1,2,1}
+	fmt.Println(sortArrayByParityII(nums))
 }
