@@ -56,3 +56,4 @@
 |       |[简化路径](medium/simplifyPath)|string|medium|
 |       |[搜索二维矩阵](medium/searchMatrix)|array|medium|
 |       |[颜色分类](medium/sortColors)|array|medium|
+|       |[最大二叉树](medium/constructMaximumBinaryTree)|tree|medium|
