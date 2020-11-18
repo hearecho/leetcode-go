@@ -37,3 +37,9 @@ func Test_relativeSortArray(t *testing.T)  {
 	arr2 := []int{2,1,4,3,9,6}
 	fmt.Println(relativeSortArray(arr1,arr2))
 }
+
+func Test_canCompleteCircuit(t *testing.T)  {
+	gas := []int{2,3,4}
+	cost := []int{3,4,3}
+	fmt.Println(canCompleteCircuit(gas,cost))
+}
