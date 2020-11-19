@@ -43,3 +43,9 @@ func Test_canCompleteCircuit(t *testing.T)  {
 	cost := []int{3,4,3}
 	fmt.Println(canCompleteCircuit(gas,cost))
 }
+
+func Test_moveZeros(t *testing.T)  {
+	nums := []int{0,1,0,3,12}
+	moveZeroes(nums)
+	fmt.Println(nums)
+}
