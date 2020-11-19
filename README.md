@@ -57,3 +57,4 @@
 |       |[搜索二维矩阵](/problem/array/searchMatrix)|array|medium|
 |       |[颜色分类](/problem/array/sortColors)|array|medium|
 |       |[最大二叉树](/problem/tree/constructMaximumBinaryTree)|tree|medium|
+|       |[递增顺序查找树](/problem/tree/increasingBST)|tree|easy|
