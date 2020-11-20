@@ -58,3 +58,4 @@
 |       |[颜色分类](/problem/array/sortColors)|array|medium|
 |       |[最大二叉树](/problem/tree/constructMaximumBinaryTree)|tree|medium|
 |       |[递增顺序查找树](/problem/tree/increasingBST)|tree|easy|
+|       |[有序数组转换二叉搜索树](/problem/tree/sortedArrayToBST)|tree|easy|

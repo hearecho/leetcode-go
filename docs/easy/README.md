@@ -14,3 +14,4 @@
 |       |[最大自子序�和](easy/maxSubArray)|array|easy|
 |       |[二进制求和](easy/addBinary)|string|easy|
 |       |[递增顺序查找树](easy/increasingBST)|tree|easy|
+|       |[有序数组转换二叉搜索树](easy/sortedArrayToBST)|tree|easy|
