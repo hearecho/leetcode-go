@@ -1,10 +1,10 @@
-package queue
+package bfs
 
 var moves = [][]int{
 	{-1, 0}, {1, 0}, {0, 1}, {0, -1},
 }
 
-func numIslands(grid [][]byte) int {
+func NumIslands(grid [][]byte) int {
 	res := 0
 	for i := 0; i < len(grid); i++ {
 		for j := 0; j < len(grid[0]); j++ {
