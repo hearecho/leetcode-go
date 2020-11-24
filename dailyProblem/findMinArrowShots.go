@@ -10,9 +10,6 @@ func findMinArrowShots(points [][]int) int {
 		return 0
 	}
 	res := 1
-	if len(points) == 1 {
-		return res
-	}
 	//实际题目就是查询重叠区间的个数，但是每次重叠都是要收紧区间的大小，以便能够使用一支箭就能射穿全部的气球
 	sort.Slice(points, func(i, j int) bool {
 		return points[i][0] < points[j][0]
