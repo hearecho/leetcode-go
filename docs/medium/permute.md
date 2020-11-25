@@ -10,18 +10,18 @@
 ```go
 //深度优先搜索，需要设置标记
 func permute(nums []int) [][]int {
-	res := make([][]int, 0)
+	tempRes := make([][]int, 0)
 	used := make([]bool, len(nums))
-	backtrack(nums, 0, make([]int, 0), &res, &used)
-	return res
+	backtrack(nums, 0, make([]int, 0), &tempRes, &used)
+	return tempRes
 }
 
-func backtrack(nums []int, index int, curArr []int, res *[][]int, used *[]bool) {
+func backtrack(nums []int, index int, curArr []int, tempRes *[][]int, used *[]bool) {
 	if len(curArr) == len(nums) {
 		//结束
 		b := make([]int, len(nums))
 		copy(b, curArr)
-		*res = append(*res, b)
+		*tempRes = append(*tempRes, b)
 		return
 	}
 	//由于数组中没有重复元素，所以只需要防止元素复用便可以了
@@ -30,7 +30,7 @@ func backtrack(nums []int, index int, curArr []int, res *[][]int, used *[]bool) 
 		if !(*used)[i] {
 			(*used)[i] = true
 			curArr = append(curArr, nums[i])
-			backtrack(nums, i, curArr, res, used)
+			backtrack(nums, i, curArr, tempRes, used)
 			curArr = curArr[:len(curArr)-1]
 			(*used)[i] = false
 		}

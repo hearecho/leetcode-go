@@ -9,7 +9,7 @@
 ```go
 
 func simplifyPath(path string) string {
-	res := ""
+	tempRes := ""
 	strs := strings.Split(path,"/")
 	stack := make([]string,0)
 	for i:=0;i<len(strs);i++ {
@@ -30,7 +30,7 @@ func simplifyPath(path string) string {
 	if len(stack) == 0 {
 		return "/"
 	}
-	res = strings.Join(stack,"/")
-	return "/"+res
+	tempRes = strings.Join(stack,"/")
+	return "/"+tempRes
 }
 ```

@@ -9,9 +9,9 @@
 
 ```go
 func merge(intervals [][]int) [][]int {
-	res := make([][]int, 0)
+	tempRes := make([][]int, 0)
 	if len(intervals) == 0 {
-		return res
+		return tempRes
 	}
 	//排序按照start端点，从小到大排序
 	sort.Slice(intervals, func(i, j int) bool {
@@ -23,7 +23,7 @@ func merge(intervals [][]int) [][]int {
 			//证明不可再继续合并
 			b := make([]int, 2)
 			copy(b, curArr)
-			res = append(res, b)
+			tempRes = append(tempRes, b)
 			curArr = intervals[i]
 		} else {
 			//合并
@@ -32,7 +32,7 @@ func merge(intervals [][]int) [][]int {
 			}
 		}
 	}
-	res = append(res, curArr)
-	return res
+	tempRes = append(tempRes, curArr)
+	return tempRes
 }
 ```

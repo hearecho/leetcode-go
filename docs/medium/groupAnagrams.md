@@ -7,7 +7,7 @@
 ```go
 func groupAnagrams(strs []string) [][]string {
 	dict := make(map[string][]string,0)
-	res := make([][]string,0)
+	tempRes := make([][]string,0)
 	for _,str := range strs {
 		bytes := []byte(str)
 		sort.Slice(bytes, func(i, j int) bool {
@@ -18,8 +18,8 @@ func groupAnagrams(strs []string) [][]string {
 		dict[string(bytes)] = sstrs
 	}
 	for _,v := range dict {
-		res = append(res,v)
+		tempRes = append(tempRes,v)
 	}
-	return res
+	return tempRes
 }
 ```

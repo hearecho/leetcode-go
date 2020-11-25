@@ -11,7 +11,7 @@
 > 内部循环结束条件，此时的right刚好是子串的最后一个字符所处的位置，所以下一个子串的起始应该是right+1
 ```go
 func partitionLabels(S string) []int {
-	res := []int{}
+	tempRes := []int{}
 	//字母从 'a'-'z'所以可以使用数组代替哈希表
 	dict := make([]int, 26)
 	//保存字符串中每个字母最后出现的位置
@@ -27,9 +27,9 @@ func partitionLabels(S string) []int {
 				right = tempRight
 			}
 		}
-		res = append(res, right-left+1)
+		tempRes = append(tempRes, right-left+1)
 		left = right + 1
 	}
-	return res
+	return tempRes
 }
 ```

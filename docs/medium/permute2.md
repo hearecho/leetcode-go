@@ -21,11 +21,11 @@ if i > 0 && nums[i] == nums[i-1] && !(*used)[i-1] {
 ```
 #### 解题思路permute类似
 ```go
-func backtrack(nums []int, used *[]bool, res *[][]int, curArr []int) {
+func backtrack(nums []int, used *[]bool, tempRes *[][]int, curArr []int) {
 	if len(curArr) == len(nums) {
 		temp := make([]int, len(nums))
 		copy(temp, curArr)
-		*res = append(*res, temp)
+		*tempRes = append(*tempRes, temp)
 		return
 	}
 	for i := 0; i < len(nums); i++ {
@@ -35,7 +35,7 @@ func backtrack(nums []int, used *[]bool, res *[][]int, curArr []int) {
 		if !(*used)[i] {
 			(*used)[i] = true
 			curArr = append(curArr, nums[i])
-			backtrack(nums, used, res, curArr)
+			backtrack(nums, used, tempRes, curArr)
 			curArr = curArr[:len(curArr)-1]
 			(*used)[i] = false
 		}

@@ -18,29 +18,29 @@ func sumNumbers(root *TreeNode) int {
 	nums := make([][]int, 0)
 	dps(root, make([]int, 0), &nums)
 	fmt.Println(nums)
-	res := 0
+	tempRes := 0
 	for _, num := range nums {
 		l := len(num) - 1
 		for _, i := range num {
-			res += i * int(math.Pow(float64(10), float64(l)))
+			tempRes += i * int(math.Pow(float64(10), float64(l)))
 			l--
 		}
 	}
-	return res
+	return tempRes
 }
-func dps(root *TreeNode, curArr []int, res *[][]int) {
+func dps(root *TreeNode, curArr []int, tempRes *[][]int) {
 	curArr = append(curArr, root.Val)
 	if root.Left == nil && root.Right == nil {
 		b := make([]int, len(curArr))
 		copy(b, curArr)
-		*res = append(*res, b)
+		*tempRes = append(*tempRes, b)
 		return
 	}
 	if root.Left != nil {
-		dps(root.Left, curArr, res)
+		dps(root.Left, curArr, tempRes)
 	}
 	if root.Right != nil {
-		dps(root.Right, curArr, res)
+		dps(root.Right, curArr, tempRes)
 	}
 }
 

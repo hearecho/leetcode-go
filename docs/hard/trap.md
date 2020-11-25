@@ -7,7 +7,7 @@
 ```go
 //暴力方式
 func trap(height []int) int {
-	res := 0
+	tempRes := 0
 	for i := 1; i < len(height)-1; i++ {
 		maxLeft, maxRight := 0, 0
 		//像左扫描，找到左端最大的
@@ -18,8 +18,8 @@ func trap(height []int) int {
 		for j := i; j < len(height); j++ {
 			maxRight = Max(height[j], maxRight)
 		}
-		res += Min(maxRight, maxLeft) - height[i]
+		tempRes += Min(maxRight, maxLeft) - height[i]
 	}
-	return res
+	return tempRes
 }
 

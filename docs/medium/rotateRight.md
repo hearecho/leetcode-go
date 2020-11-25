@@ -30,8 +30,8 @@ func rotateRight(head *ListNode, k int) *ListNode {
 	for i := l - k; i > 0; i-- {
 		cur = cur.Next
 	}
-	res := &ListNode{Val: 0, Next: cur.Next}
+	tempRes := &ListNode{Val: 0, Next: cur.Next}
 	cur.Next = nil
-	return res.Next
+	return tempRes.Next
 }
 ```
