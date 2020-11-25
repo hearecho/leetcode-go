@@ -54,3 +54,9 @@ func Test_findMinArrowShots(t *testing.T) {
 	points := [][]int{{1, 2}, {2, 3}, {3, 4}, {4, 5}}
 	fmt.Println(findMinArrowShots(points))
 }
+
+func Test_sortString(t *testing.T) {
+	fmt.Println(sortString("aaaabbbbcccc"))
+	fmt.Println(sortString("leetcode"))
+
+}
