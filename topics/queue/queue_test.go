@@ -26,3 +26,21 @@ func Test_numSquares(t *testing.T) {
 	n := 13
 	fmt.Println(bfs.NumSquares(n))
 }
+
+func TestMyQueue(t *testing.T) {
+	q := Constructor1()
+	q.Push(1)
+	q.Push(2)
+	q.Peek()
+	q.Pop()
+	q.Empty()
+}
+
+func Test_updateMatrix(t *testing.T) {
+	grid := [][]int{
+		{0, 0, 0},
+		{0, 1, 0},
+		{0, 0, 0},
+	}
+	bfs.UpdateMatrix(grid)
+}

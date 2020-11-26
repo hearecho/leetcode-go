@@ -1,4 +1,4 @@
-package stacks
+package stack
 
 //https://leetcode-cn.com/leetbook/read/queue-stack/genw3/
 func dailyTemperatures(T []int) []int {

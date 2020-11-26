@@ -1,4 +1,4 @@
-package stacks
+package stack
 
 import (
 	"fmt"
@@ -21,4 +21,15 @@ func Test_dailyTemp(t *testing.T) {
 
 func Test_evalRPN(t *testing.T) {
 	fmt.Println(evalRPN([]string{"10", "6", "9", "3", "+", "-11", "*", "/", "*", "17", "+", "5", "+"}))
+}
+
+func Test_myStack(t *testing.T) {
+	s := Constructor1()
+	s.Push(1)
+	s.Pop()
+	s.Empty()
+}
+
+func Test_decodeString(t *testing.T) {
+	fmt.Println(decodeString("10[a]"))
 }

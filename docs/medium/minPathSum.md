@@ -11,25 +11,25 @@
 ```go
 func minPathSum(grid [][]int) int {
 	zero := len(grid)
-	c := len(grid[0])
+	sc := len(grid[0])
 	for i:=0;i<zero;i++ {
 		if i == 0 {
 			continue
 		}
 		grid[i][0] += grid[i-1][0]
 	}
-	for i:=0;i<c;i++ {
+	for i:=0;i<sc;i++ {
 		if i == 0 {
 			continue
 		}
 		grid[0][i] += grid[0][i-1]
 	}
 	for i:=1;i<zero;i++ {
-		for j:=1;j<c;j++ {
+		for j:=1;j<sc;j++ {
 			grid[i][j] += min(grid[i-1][j],grid[i][j-1])
 		}
 	}
-	return grid[zero-1][c-1]
+	return grid[zero-1][sc-1]
 }
 
 func min(a,b int) int  {
