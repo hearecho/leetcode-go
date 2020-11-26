@@ -58,5 +58,9 @@ func Test_findMinArrowShots(t *testing.T) {
 func Test_sortString(t *testing.T) {
 	fmt.Println(sortString("aaaabbbbcccc"))
 	fmt.Println(sortString("leetcode"))
+}
 
+func Test_maximumGap_op(t *testing.T) {
+	nums := []int{1, 1, 1, 1}
+	fmt.Println(maximumGap_op(nums))
 }
