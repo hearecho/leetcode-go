@@ -64,3 +64,8 @@ func Test_maximumGap_op(t *testing.T) {
 	nums := []int{1, 1, 1, 1}
 	fmt.Println(maximumGap_op(nums))
 }
+
+func Test_forSum(t *testing.T) {
+	A, B, C, D := []int{1, 2}, []int{-2, -1}, []int{-1, 2}, []int{0, 2}
+	fmt.Println(fourSumCount(A, B, C, D))
+}
