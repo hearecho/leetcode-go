@@ -15,3 +15,4 @@
 |       |[二进制求和](easy/addBinary)|string|easy|
 |       |[递增顺序查找树](easy/increasingBST)|tree|easy|
 |       |[有序数组转换二叉搜索树](easy/sortedArrayToBST)|tree|easy|
+|       |[寻找数组的中心索引](easy/pivotIndex)|array|easy|

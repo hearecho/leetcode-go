@@ -59,3 +59,5 @@
 |       |[最大二叉树](/problem/tree/constructMaximumBinaryTree)|tree|medium|
 |       |[递增顺序查找树](/problem/tree/increasingBST)|tree|easy|
 |       |[有序数组转换二叉搜索树](/problem/tree/sortedArrayToBST)|tree|easy|
+|       |[寻找数组的中心索引](/problem/array/pivotIndex)|array|easy|
+|       |[对角线遍历](/problem/array/findDiagonalOrder)|array|medium|
