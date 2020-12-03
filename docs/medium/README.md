@@ -38,3 +38,5 @@
 |       |[颜色分类](medium/sortColors)|array|medium|
 |       |[最大二叉树](medium/constructMaximumBinaryTree)|tree|medium|
 |       |[对角线遍历](medium/findDiagonalOrder)|array|medium|
+|       |[最长回文子串](medium/longestPalindrome)|string|medium|
+|       |[反转字符串里的单词](medium/reverseWords)|string|medium|

@@ -61,3 +61,5 @@
 |       |[有序数组转换二叉搜索树](easy/sortedArrayToBST)|tree|easy|
 |       |[寻找数组的中心索引](easy/pivotIndex)|array|easy|
 |       |[对角线遍历](medium/findDiagonalOrder)|array|medium|
+|       |[最长回文子串](medium/longestPalindrome)|string|medium|
+|       |[反转字符串里的单词](medium/reverseWords)|string|medium|
