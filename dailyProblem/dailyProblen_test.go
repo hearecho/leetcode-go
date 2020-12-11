@@ -69,3 +69,8 @@ func Test_forSum(t *testing.T) {
 	A, B, C, D := []int{1, 2}, []int{-2, -1}, []int{-1, 2}, []int{0, 2}
 	fmt.Println(fourSumCount(A, B, C, D))
 }
+
+func Test_isPossible(t *testing.T) {
+	nums := []int{1, 2, 3, 4, 5, 6, 6, 8, 9, 9}
+	isPossible(nums)
+}
