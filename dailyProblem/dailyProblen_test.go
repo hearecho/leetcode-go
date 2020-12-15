@@ -74,3 +74,7 @@ func Test_isPossible(t *testing.T) {
 	nums := []int{1, 2, 3, 4, 5, 6, 6, 8, 9, 9}
 	isPossible(nums)
 }
+
+func Test_monotoneIncreasingDigits(t *testing.T) {
+	fmt.Println(monotoneIncreasingDigits(921))
+}
