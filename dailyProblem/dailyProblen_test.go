@@ -78,3 +78,6 @@ func Test_isPossible(t *testing.T) {
 func Test_monotoneIncreasingDigits(t *testing.T) {
 	fmt.Println(monotoneIncreasingDigits(921))
 }
+func Test_wordPattern(t *testing.T) {
+	fmt.Println(wordPattern("abba", "dog cat cat dog"))
+}
