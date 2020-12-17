@@ -81,3 +81,7 @@ func Test_monotoneIncreasingDigits(t *testing.T) {
 func Test_wordPattern(t *testing.T) {
 	fmt.Println(wordPattern("abba", "dog cat cat dog"))
 }
+
+func Test_maxProfit(t *testing.T) {
+	fmt.Println(maxProfit2([]int{1, 3, 2, 8, 4, 9}, 2))
+}
