@@ -85,3 +85,7 @@ func Test_wordPattern(t *testing.T) {
 func Test_maxProfit(t *testing.T) {
 	fmt.Println(maxProfit2([]int{1, 3, 2, 8, 4, 9}, 2))
 }
+
+func Test_removeDuplicateLetters(t *testing.T) {
+	fmt.Println(removeDuplicateLetters("bcacb"))
+}
