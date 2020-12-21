@@ -89,3 +89,7 @@ func Test_maxProfit(t *testing.T) {
 func Test_removeDuplicateLetters(t *testing.T) {
 	fmt.Println(removeDuplicateLetters("bcacb"))
 }
+
+func Test_minCostClimbingStairs(t *testing.T) {
+	fmt.Println(minCostClimbingStairs([]int{1, 100, 1, 1, 1, 100, 1, 1, 100, 1}))
+}
