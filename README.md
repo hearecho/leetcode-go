@@ -64,3 +64,4 @@
 |       |[最长回文子串](/problem/string/longestPalindrome)|string|medium|
 |       |[反转字符串里的单词](/problem/string/reverseWords)|string|medium|
 |       |[长度最小的子数组](/problem/array/minSubArrayLen)|array|medium|
+|       |[Z字形变换](/problem/string/convert)|string|medium|

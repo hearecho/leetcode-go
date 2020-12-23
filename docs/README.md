@@ -64,3 +64,4 @@
 |       |[最长回文子串](medium/longestPalindrome)|string|medium|
 |       |[反转字符串里的单词](medium/reverseWords)|string|medium|
 |       |[长度最小的子数组](medium/minSubArrayLen)|array|medium|
+|       |[Z字形变换](medium/convert)|string|medium|
