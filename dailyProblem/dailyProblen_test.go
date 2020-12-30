@@ -93,3 +93,7 @@ func Test_removeDuplicateLetters(t *testing.T) {
 func Test_minCostClimbingStairs(t *testing.T) {
 	fmt.Println(minCostClimbingStairs([]int{1, 100, 1, 1, 1, 100, 1, 1, 100, 1}))
 }
+
+func Test_lastStoneWeight(t *testing.T) {
+	fmt.Println(lastStoneWeight([]int{2, 7, 4, 1, 8, 1}))
+}
