@@ -97,3 +97,7 @@ func Test_minCostClimbingStairs(t *testing.T) {
 func Test_lastStoneWeight(t *testing.T) {
 	fmt.Println(lastStoneWeight([]int{2, 7, 4, 1, 8, 1}))
 }
+
+func Test_largeGroupPositions(t *testing.T) {
+	fmt.Println(largeGroupPositions("abcdddeeeeaabbbcd"))
+}
