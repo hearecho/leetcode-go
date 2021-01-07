@@ -101,3 +101,13 @@ func Test_lastStoneWeight(t *testing.T) {
 func Test_largeGroupPositions(t *testing.T) {
 	fmt.Println(largeGroupPositions("abcdddeeeeaabbbcd"))
 }
+
+func Test_findCircleNum(t *testing.T) {
+	isConnected := [][]int{
+		{1, 0, 0, 1},
+		{0, 1, 1, 0},
+		{0, 1, 1, 1},
+		{1, 0, 1, 1},
+	}
+	fmt.Println(findCircleNum(isConnected))
+}
