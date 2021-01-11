@@ -111,3 +111,7 @@ func Test_findCircleNum(t *testing.T) {
 	}
 	fmt.Println(findCircleNum(isConnected))
 }
+
+func Test_smallestStringWithSwaps(t *testing.T) {
+	fmt.Println(smallestStringWithSwaps("dcab", [][]int{{0, 3}, {1, 2}, {0, 2}}))
+}
