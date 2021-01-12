@@ -115,3 +115,8 @@ func Test_findCircleNum(t *testing.T) {
 func Test_smallestStringWithSwaps(t *testing.T) {
 	fmt.Println(smallestStringWithSwaps("dcab", [][]int{{0, 3}, {1, 2}, {0, 2}}))
 }
+
+func Test_sortItems(t *testing.T) {
+	fmt.Println(sortItems(8, 2, []int{-1, -1, 1, 0, 0, 1, 0, -1},
+		[][]int{{}, {6}, {5}, {6}, {3, 6}, {}, {}, {}}))
+}
