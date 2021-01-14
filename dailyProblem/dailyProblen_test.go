@@ -125,3 +125,8 @@ func Test_findRedundantConnection(t *testing.T) {
 	edges := [][]int{{1, 2}, {2, 3}, {3, 4}, {1, 4}, {1, 5}}
 	fmt.Println(findRedundantConnection(edges))
 }
+
+func Test_prefixesDivBy5(t *testing.T) {
+	A := []int{1, 0, 1, 1, 1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 1, 1, 1, 1, 1, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 1, 0, 0, 1, 0}
+	fmt.Println(prefixesDivBy5(A))
+}
