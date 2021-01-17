@@ -130,3 +130,8 @@ func Test_prefixesDivBy5(t *testing.T) {
 	A := []int{1, 0, 1, 1, 1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 1, 1, 1, 1, 1, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 1, 0, 0, 1, 0}
 	fmt.Println(prefixesDivBy5(A))
 }
+
+func Test_checkStraightLine(t *testing.T) {
+	points := [][]int{{1, 1}, {2, 2}, {2, 0}}
+	fmt.Println(checkStraightLine(points))
+}
