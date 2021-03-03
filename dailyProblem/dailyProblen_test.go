@@ -145,3 +145,7 @@ func Test_accountsMerge(t *testing.T) {
 	}
 	fmt.Println(accountsMerge(accounts))
 }
+
+func Test_countOne(t *testing.T) {
+	fmt.Println(countOne(5))
+}
