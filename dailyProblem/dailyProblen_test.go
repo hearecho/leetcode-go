@@ -149,3 +149,7 @@ func Test_accountsMerge(t *testing.T) {
 func Test_countOne(t *testing.T) {
 	fmt.Println(countOne(5))
 }
+
+func Test_maxEnvelopes(t *testing.T) {
+	fmt.Println(maxEnvelopes([][]int{{2, 100}, {3, 200}, {4, 300}, {5, 500}, {5, 400}, {5, 250}, {6, 370}, {6, 360}, {7, 380}}))
+}
