@@ -1,7 +1,7 @@
 package dailyProblem
 
 //单调栈
-//每次入栈 都将比此时栈顶值更小的值都
+//每次入栈 都将比此时栈顶值更小的值都被取出
 func nextGreaterElements(nums []int) []int {
 	n := len(nums)
 	ans := make([]int, n)
