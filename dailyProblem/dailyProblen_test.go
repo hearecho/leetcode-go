@@ -157,3 +157,11 @@ func Test_maxEnvelopes(t *testing.T) {
 func Test_partReply(t *testing.T) {
 	fmt.Println(partReply("ababbbabbaba"))
 }
+
+func Test_calculate(t *testing.T) {
+	fmt.Println(calculate("(1+(4+5+2)-3)+(6+8)"))
+}
+
+func Test_translate(t *testing.T) {
+	fmt.Println(translate("1+4*5/(2-3)"))
+}
