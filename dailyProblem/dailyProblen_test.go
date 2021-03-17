@@ -163,5 +163,9 @@ func Test_calculate(t *testing.T) {
 }
 
 func Test_translate(t *testing.T) {
-	fmt.Println(translate("1+4*5/(2-3)"))
+	isValidSerialization("9,3,4,#,#,1,#,#,2,#,6,#,#")
+}
+
+func Test_numDistinct(t *testing.T) {
+	fmt.Println(numDistinct("babgbag", "bag"))
 }
