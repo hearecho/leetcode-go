@@ -20,8 +20,8 @@ func inandpost(inorder []int, postorder []int) *Node {
 		postorder = postorder[:len(postorder)-1]
 		root := &Node{Val: val}
 		rootIndex := indexs[val]
-		root.Left = build(start, rootIndex-1)
 		root.Right = build(rootIndex+1, end)
+		root.Left = build(start, rootIndex-1)
 		return root
 	}
 
