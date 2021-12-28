@@ -56,8 +56,50 @@ func maxSlidingWindowBaoli(nums []int, k int) []int {
 		res = append(res, max)
 	}
 	return res
+}
 
-	// 使用最大堆的方式
-	// 维持一个大小为k的最大堆
+//单调队列
+type dqueue []int
 
+func (d *dqueue) Push(x int) {
+	for len(*d) != 0 && (*d)[len(*d)-1] < x {
+		// 移除前面比该值小的数
+		*d = (*d)[:len(*d)-1]
+	}
+	*d = append(*d, x)
+}
+
+func (d *dqueue) Max() int {
+	if len(*d) == 0 {
+		return -1
+	}
+	return (*d)[0]
+}
+
+func (d *dqueue) Pop(n int) {
+	if len(*d) != 0 && (*d)[0] == n {
+		*d = (*d)[1:]
+	}
+}
+
+func maxSlidingWindowQueue(nums []int, k int) []int {
+	// 使用单调队列或者是 优先队列 优先队列存储的索引，但是按照的是最大值进行的排序
+	res := make([]int, 0)
+	i, j := 0, 0
+	q := make(dqueue, 0)
+	for j <= len(nums) {
+		if j-i < k {
+			q.Push(nums[j])
+		} else {
+			t := nums[i]
+			res = append(res, q.Max())
+			q.Pop(t)
+			if j < len(nums) {
+				q.Push(nums[j])
+			}
+			i++
+		}
+		j++
+	}
+	return res
 }
